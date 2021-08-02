@@ -1,0 +1,868 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.mainPage{
+    
+    
+    
+    width:100%;
+    height: 660px;
+    background-image: url("background.jpg");
+    background-size: cover;
+   
+}
+
+#logo {
+    position:absolute;
+    color:white;
+    
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.page{
+    color:white;
+    position:relative;
+    top:220px;
+    text-align: center;
+}
+
+.page h1{
+    font-size: 60px;
+}
+
+.page h2{
+    
+}
+
+.page button{
+    margin-top: 50px;
+    width:200px;
+    height:50px;
+    background-color:transparent;
+    color:lightblue;
+    font-weight: bold;
+    
+    border-color:lightblue;
+    font-size: 16px;
+    
+}
+
+.page button:hover {
+    background-color: cadetblue;
+    transition:500ms;
+}
+
+
+
+nav{
+    padding-top: 30px;
+    padding-right: 5%;
+    text-align: right;
+    font-size: 18px;
+    
+}
+
+nav ul li{
+    display: inline; 
+    
+    
+    margin-right:  30px;
+}
+nav ul li a{
+text-decoration: none;
+color:white;
+}
+
+nav ul li a :active{
+    
+}
+
+nav ul li a:hover{
+    transition:500ms;
+    color:cadetblue;
+}
+
+.navbar2{
+    display:flex;
+    height:320px;
+    background-color: rgb(29, 29, 29);
+    justify-content: center;
+    padding:2% 2%;
+}
+.navbar2 h1{
+    color:white;
+    text-align: center;
+    margin-top:35%;
+}
+
+#services2{
+    background-image: url("services2.jpg");
+    background-size: cover;
+    width:350px;
+    height:300px;
+    border: 1px solid white;
+}
+
+
+
+#gallery2{
+    background-image: url("gallery2.jpg");
+    background-size: cover;
+    
+    width:350px;
+    height:300px;
+    border: 1px solid white;
+}
+
+#location2{
+    background-image: url("location2.jpg");
+    background-size: cover;
+    width:350px;
+    height:300px;
+    border: 1px solid white;
+}
+
+.about{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:620px;
+    padding:8% 10%;
+}
+
+#story{
+    
+
+    width:500px;
+    height:600px;
+}
+
+#story button{
+    
+    position:absolute;
+    top:1550px;
+    background-color: black;
+    width:200px;
+    height:50px;
+    color:white;
+}
+
+#story h1{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#story p{
+    margin-top: 20px;
+}
+
+
+
+#aboutPic{
+    background-image: url("barbershop.jpg");
+    background-size: cover;
+    height:600px;
+    width:400px;
+}
+
+.services{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height:660px;
+    background-image: url("services.jpg");
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+
+.services h1{
+    padding-top: 5%;
+    font-size: 50px;
+    
+}
+.services p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#discount{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:4%;
+    font-size: 12px;
+}
+
+.services button{
+    margin-top: 1%;
+    width:200px;
+    height:50px;
+    background-color: cadetblue;
+    color:white;
+    font-weight: bold;
+}
+
+
+
+.gallerydiv1{
+    padding:0 15%;
+    padding-top: 15%;
+    padding-bottom: 2%;
+    display:flex;
+    height:330px;
+    justify-content: space-around;
+
+}
+
+.gallerydiv1 h1{
+    position:absolute;
+    top:2680px;
+    left:12%;
+
+}
+
+.gallerydiv1 button{
+    position:absolute;
+    top:3450px;
+    left:45%;
+    width:150px;
+    height:40px;
+    background-color: black;
+    color:white;
+
+}
+
+#firstgallery{
+    width:300px;
+    background-image: url("firstgallery.jpg");
+    background-size: cover;
+}
+
+#secondgallery{
+    width:300px;
+    background-image: url("gallery2.jpg");
+    background-size: cover;
+}
+
+#thirdgallery{
+    width:300px;
+    background-image: url("thirdgallery.jpg");
+    background-size: cover;
+}
+
+.gallerydiv2{
+    padding:0 15%;
+    display:flex;
+    height:330px;
+    justify-content: space-around;
+}
+
+#fourthgallery{
+    width:300px;
+    background-image: url("albert.jpeg");
+    background-size: cover;
+}
+
+#fiftgallery{
+    width:300px;
+    background-image: url("jastin.jpeg");
+    background-size: cover;
+}
+
+#sixthgallery{
+    width:300px;
+    background-image: url("migs.jpeg");
+    background-size: cover;
+}
+
+.location {
+    display:flex;
+    margin-top:15%;
+    height:760px;
+    background-image: url("location2.jpg");
+    background-size: cover;
+    justify-content: space-around;
+}
+
+.location h1{
+    position:absolute;
+    font-size: 40px;
+    padding-top:5%;
+    text-align: center;
+    color:white;
+}
+.location p{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+}
+
+
+
+#first-location{
+    margin-top: 18%;
+    height:300px;
+    width:450px;
+    background-image: url("secondbarbershop.jpg");
+    background-size: cover;
+    box-shadow: 20px 20px 20px black, 0px 0px 50px black;
+}
+
+#second-location{
+    margin-top: 18%;
+    height:300px;
+    width:450px;
+    background-image: url("firstbarbershop.jpg");
+    background-size: cover;
+    box-shadow: 20px 20px 20px black, 0px 0px 50px black;
+}
+
+
+#address1{
+    padding-top:330px;
+}
+
+#contact1{
+    padding-top:10px;
+}
+
+#address2{
+    padding-top:330px;
+}
+
+#contact2{
+    padding-top:10px;
+}
+
+.footer{
+    height:150px;
+    background-color: black;
+}
+
+#menu {
+    display:none;
+}
+
+#mobile-navigation{
+    display:none; 
+    position:absolute;
+    border-color:yellow;
+    background-color: red;
+    top:100px;
+    width:200px;
+    height:200px;
+
+}
+
+
+@media(max-width:700px){
+    
+    
+
+    .mainPage{
+        width:100%;
+        height: 660px;
+        background-image: url("background.jpg");
+        background-size: cover;
+        position:relative;
+       
+    }
+
+    .page button:hover {
+        background-color: cadetblue;
+        transition:500ms;
+    }
+
+    
+    
+
+    
+
+    
+
+
+    
+
+   
+    nav{
+        padding-top: 30px;
+        padding-right: 5%;
+        text-align: right;
+        font-size: 18px;
+        
+    }
+
+
+    nav ul li{
+        display: none; 
+        
+        
+        margin-right:  10px;
+    }
+
+
+    nav ul li a{
+        text-decoration: none;
+        color:white;
+        }
+
+    #logo {
+        position:relative;
+        color:white;
+        
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+        font-size: 16px;
+        padding:20px;
+
+        margin:0;
+    }
+
+    .page{
+        color:white;
+        position:relative;
+        top:150px;
+        text-align: center;
+        padding: 0 10%;
+        
+    }
+    
+    .page h1{
+        font-size: 40px;
+    }
+    
+    .page h2{
+        margin-top: 10px;
+        font-size:20px;
+    }
+    
+    .page button{
+        margin-top: 50px;
+        width:150px;
+        height:50px;
+        background-color:transparent;
+        color:lightblue;
+        font-weight: bold;
+        
+        border-color:lightblue;
+        font-size: 16px;
+        
+    }
+    .navbar2{
+        
+        display:flex;
+        height:600px;
+        background-color: rgb(29, 29, 29);
+        justify-content: center;
+        flex-direction: column;
+        padding:0;
+        
+    }
+    .navbar2 h1{
+        color:white;
+        text-align: center;
+        position:relative;
+        bottom:35%;
+        font-size: 30px;
+        
+    }
+    
+    #services2{
+        background-image: url("services2.jpg");
+        background-size: cover;
+        width:100%;
+        height:200px;
+        border: 1px solid white;
+    }
+    
+    #gallery2{
+        background-image: url("gallery2.jpg");
+        background-size: cover;
+        
+        width:100%;
+        height:200px;
+        border: 1px solid white;
+    }
+    
+    #location2{
+        background-image: url("location2.jpg");
+        background-size: cover;
+        width:100%;
+        height:200px;
+        border: 1px solid white;
+    }
+
+
+    .about{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+        
+        justify-content: flex-start;
+        height:720px;
+        padding:0;
+    }
+    
+    #story{
+        
+        
+        width:100%;
+        height:430px;
+    }
+    
+    #story button{
+        
+        position:relative;
+        top:120px;
+        left:37%;
+        background-color: transparent;
+        border-color:lightblue;
+        color:lightblue;
+        border:2px solid;
+        width:100px;
+        height:50px;
+        font-weight: bold;
+        
+    }
+
+    #story button:hover{
+        background-color: cadetblue;
+        transition:500ms;
+        color:white;
+    }
+
+    #story h2 {
+        margin-top: 30px;
+        
+        text-align: center;
+    }
+    
+    #story h1{
+        font-size: 40px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+    #story p{
+        margin-top: 20px;
+       padding:0% 5%;
+    }
+    
+    
+    
+    #aboutPic{
+        
+        background-image: url("swap.jpg");
+        background-size: cover;
+        
+        height:250px;
+        width:90%;
+        margin:0% 5%;
+    }
+
+    .services{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        height:660px;
+        background-image: url("services.jpg");
+        background-size: cover;
+        color:white;
+        text-align: center;
+        
+    }
+    
+    .services h1{
+        padding-top: 5%;
+        padding-bottom: 10%;
+        font-size: 50px;
+        
+    }
+    .services p{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    #discount{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:15%;
+        font-size: 12px;
+    }
+    
+    .services button{
+        background-color: transparent;
+        color:white;
+        font-weight: bold;
+        margin-top: 4%;
+        width:150px;
+        height:50px;
+    }
+
+    .services button:hover{
+        background-color: cadetblue;
+        transition:500ms;
+    }
+
+    .gallerydiv1{
+        padding:0;
+        display:flex;
+        height:1000px;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin:0;
+    
+    }
+    
+    .gallerydiv1 h1{
+        position:absolute;;
+        top:80%px;
+        left:34%;
+        text-align: center;
+        
+        padding:0;
+        margin:0;
+        color:white;
+    
+    }
+    
+    .gallerydiv1 button{
+        position:absolute;
+        top:4620px;
+        left:33%;
+        width:150px;
+        height:40px;
+        background-color: transparent;
+        color:white;
+        font-weight: bold;
+    
+    }
+
+    .gallerydiv1 button:hover{
+        background-color: cadetblue;
+        transition:500ms;
+    }
+    
+    #firstgallery{
+        width:100%;
+        height:300px;
+        background-image: url("firstgallery.jpg");
+        background-size: cover;
+        padding:0;
+        margin:0;
+    }
+    
+    #secondgallery{
+        width:100%;
+        height:400px;
+        background-image: url("gallery2.jpg");
+        background-size: cover;
+    }
+    
+    #thirdgallery{
+        width:100%;
+        height:400px;
+        background-image: url("thirdgallery.jpg");
+        background-size: cover;
+    }
+    
+    .gallerydiv2{
+        padding:0;
+        display:flex;
+        height:1200px;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    #fourthgallery{
+        width:100%;
+        height:400px;
+        background-image: url("albert.jpeg");
+        background-size: cover;
+    }
+    
+    #fiftgallery{
+        width:100%;
+        height:400px;
+        background-image: url("jastin.jpeg");
+        background-size: cover;
+        
+    }
+    
+    #sixthgallery{
+        width:100%;
+        height:400px;
+        background-image: url("migs.jpeg");
+        background-size: cover;
+    }
+
+    .location {
+        display:flex;
+        margin-top:0;
+        margin:0;
+        padding:0;
+        height:1000px;
+        background-image: url("location2.jpg");
+        background-size: cover;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    
+    .location h1{
+        position:absolute;
+        font-size: 25px;
+        top:4900px;
+        padding-top:0;
+        padding:5% 5%;
+        text-align: center;
+        color:white;
+        text-shadow: 5px 5px 5px black;
+    }
+    .location p{
+        text-align: center;
+        color:white;
+        font-size: 20px;
+    }
+    
+    
+    
+    #first-location{
+        
+        margin:10% 10%;
+        padding:0;
+        margin-top: 50%;
+        height:250px;
+        width:300px;
+        background-image: url("secondbarbershop.jpg");
+        background-size: cover;
+        box-shadow: 20px 20px 20px black, 0px 0px 50px black;
+    }
+    
+    #second-location{
+        margin:10% 10%;
+        padding:0;
+        margin-top: 0;
+        height:250px;
+        width:300px;
+        background-image: url("firstbarbershop.jpg");
+        background-size: cover;
+        box-shadow: 20px 20px 20px black, 0px 0px 50px black;
+    }
+    
+    
+    #address1{
+        padding-top:30%;
+        font-size: 35px;
+    }
+    
+    #contact1{
+        padding-top:0;
+    }
+    
+    #address2{
+        padding-top:30%;
+        font-size: 35px;
+    }
+    
+    #contact2{
+        padding-top:0;
+    }
+
+    #footerlogo{
+        position:relative;
+        top:10px;
+        padding:0;
+        text-align: center;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }
+
+
+
+    #menu {
+        display:block;
+        position:absolute;
+        top:27px;
+        right:7%;
+        margin:0px;
+        padding:0px;
+        width:25px;
+        height:23px;
+        background-image: url("menu.png");
+        background-size: cover;
+
+    }
+
+    #mobile-navigation{
+        display:none;
+        position:absolute;
+        border-color:yellow;
+        background-color: rgba(83, 83, 83, 0.3);
+        
+        top:60px;
+        right:0;
+        width:100%;
+        height:200px;
+        
+        z-index: 5;
+        animation-name: anime,anime2;
+        animation-duration: 1s,1s;
+        
+    }
+
+    @keyframes anime {
+        from{ top:0px;}
+        to{top:60px;}
+    }
+
+    @keyframes anime2{
+        from{height:0px;}
+        to{height:200px;}
+    }
+
+    .animationz{
+        animation-name:anime3;
+        animation-duration:1s;
+    }
+
+    @keyframes anime3{
+        from{top:60px;}
+        to{top:0px;}
+        from{height:200px;}
+        to{height:0px;}
+    }
+
+    #mobile-navigation ul{
+        position:relative;
+        top:1px;  
+        text-align: center;
+        
+        
+    }
+
+    #mobile-navigation ul li{
+        display:block;
+        font-size: 20px;
+        margin-top:4%;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+    #mobile-navigation ul li a{
+        color:white;
+        text-decoration: none;
+        
+    }
+
+    #mobile-navigation li a:hover{
+       background-color:rgb(168, 168, 168);
+    }
+
+    
+    
+}
